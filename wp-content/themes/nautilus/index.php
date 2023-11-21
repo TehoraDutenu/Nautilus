@@ -53,6 +53,31 @@
             </div>
         </div>
     </section>
+    <section id="service" class="py-5">
+        <div class="container d-flex flex-row">
+            <div class="row section-heading text-center" style="padding: 80px;">
+                <h2>Restez informé avec la newsletter du Nautilus</h2>
+                <p>Description</p>
+            </div>
+            <div class="row section-content" style="width: 850px;">
+                <form>
+                    <div class="mb-3">
+                        <label for="firstname" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" id="firstname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 600px;">Je m'inscris</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php get_footer() ?>
