@@ -78,3 +78,12 @@ img {
     font-size: 18px;
     padding-bottom: 10px;
 }
+
+#service {
+    background-color: #CFF4FC;
+}
+
+#service-case {
+    border-radius: 10px;
+}
+
