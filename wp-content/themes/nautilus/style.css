@@ -6,16 +6,47 @@ Version: 1.0
 Tags: bootstrap, html, css, php, culture
 */
 
+
+/* -- GÉNERAL -- */
 a {
     color: white;
     text-decoration: none;
 }
 
-/* .home-img {
-    margin-top: 100px !important;
-    margin-left: 50px !important;
-} */
+/* -- HOMEPAGE -- */
+/* - Menu principal - */
+.navbar{
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+ul.custom-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
 
+ul.custom-menu li{
+    margin-right: 20px;
+    position: relative;
+}
+
+ul.custom-menu li:last-child{
+    margin-right: 0;
+}
+
+ul.custom-menu li a{
+    padding:10px;
+    text-decoration: none;
+    display: block;
+}
+
+.custom_a {
+    color: #fff;
+}
+
+/* - Main - */
 img {
     margin: 50px;
     padding: 40px;
