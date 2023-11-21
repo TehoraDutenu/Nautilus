@@ -1,0 +1,49 @@
+/*
+Theme Name: Nautilus
+Author: Urban Media
+Description: Thème pour le Nautilus - Tiers-lieu culturel
+Version: 1.0
+Tags: bootstrap, html, css, php, culture
+*/
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* .home-img {
+    margin-top: 100px !important;
+    margin-left: 50px !important;
+} */
+
+img {
+    margin: 50px;
+    padding: 40px;
+}
+
+#description {
+    margin: 240px 50px;
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.home-title,
+.home-p {
+    padding: 20px;
+}
+
+.home-button {
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    height: 45px;
+    margin: 30px;
+    width: 300px;
+}
+
+.home-button a {
+    color: #000;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
